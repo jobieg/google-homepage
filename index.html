@@ -1,38 +1,37 @@
+
 <!DOCTYPE html>
-<html lang="en-US">
-<head>
-<meta charset="utf-8">
-<link rel="shortcut icon" href="/favicon.ico" />
-<title>My Google Homepage</title>
-<style>
-    .search-image {
-        width: 80%;
-        margin: 0 auto;
-        padding: 20px;
-    
-
-    }
-    .search-input{
-        width: 80%;
-        margin: 0 auto;
-        padding: 20px;
-        background: white;
-        
-
-    }
-</style>
-</head>
-<body>
-    <header>
-
-    </header>
-<img class="search-image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="The Google logo">
-<form>
-    <input type="submit" value="Search">
-    <input type="text" class="search-input" name="search-input" value="Search Google or type a URL">
-</form>
-    <footer>
-
-</footer>
-</body>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <title>Google</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" href="favicon.ico" type="image/x-icon/">
+    </head>
+    <body>
+        <nav>
+            <button id="sign-in" class="right"><a href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/">Sign in</a></button>
+            <i class="material-icons right">&#xe5c3;</i>
+            <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" class="right">Images</a>
+            <a href="https://mail.google.com/mail/?tab=wm&ogbl" class="right">Gmail</a>
+            <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" class="left">About</a>
+            <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" class="left">Store</a>
+        </nav>
+        <main>
+            <img src="google-logo.PNG" alt="Google logo">
+            <form>
+                <input type="search" name="search" id="search">
+                <br>
+                <input type="submit" value="Google Search" name="gsearch" class="search-buttons">
+                <input type="submit" value="I'm Feeling Lucky" name="lucky" class="search-buttons">
+            </form>
+        </main>
+        <footer>
+            <a href="https://www.google.com/intl/en_US/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1" class="left">Advertising</a>
+            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1" class="left">Business</a>
+            <a href="https://google.com/search/howsearchworks/?fg=1" class="left">How Search works</a>
+            <a href="https://www.google.com/preferences?hl=en" class="right">Settings</a>
+            <a href="https://policies.google.com/terms?fg=1" class="right">Terms</a>
+            <a href="https://policies.google.com/privacy?fg=1" class="right">Privacy</a>
+        </footer>
+    </body>
 </html>
